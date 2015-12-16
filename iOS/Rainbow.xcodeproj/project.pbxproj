@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35A64236FAE75C50745BD2A4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1952FBE0D33AD474CEAC2603 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5738E6571B45D89C00B63894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738E6561B45D89C00B63894 /* AppDelegate.swift */; };
+		5738E65C1B45D89C00B63894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5738E65A1B45D89C00B63894 /* Main.storyboard */; };
+		5738E6611B45D89C00B63894 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5738E65F1B45D89C00B63894 /* LaunchScreen.xib */; };
+		5738E66D1B45D89C00B63894 /* RainbowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738E66C1B45D89C00B63894 /* RainbowTests.swift */; };
+		574259051B49A0310021F861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574259041B49A0310021F861 /* Images.xcassets */; };
+		5759BD0F1B51C84000236F1F /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5759BD0E1B51C84000236F1F /* Device.m */; };
+		577DFCB21B79DF0800B10473 /* AppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577DFCB11B79DF0800B10473 /* AppCell.xib */; };
+		57D030261B793F1100F3C5EE /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D030251B793F1100F3C5EE /* AppCell.swift */; };
+		57FB64861B77F0E200FE9B37 /* RainbowCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB64851B77F0E200FE9B37 /* RainbowCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5738E6671B45D89C00B63894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5738E6491B45D89C00B63894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5738E6501B45D89C00B63894;
+			remoteInfo = Rainbow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1952FBE0D33AD474CEAC2603 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D62D8812EE0EF4ECA5C4980 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5738E6511B45D89C00B63894 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5738E6551B45D89C00B63894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5738E6561B45D89C00B63894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5738E65B1B45D89C00B63894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5738E6601B45D89C00B63894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5738E6661B45D89C00B63894 /* RainbowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5738E66B1B45D89C00B63894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5738E66C1B45D89C00B63894 /* RainbowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTests.swift; sourceTree = "<group>"; };
+		574259041B49A0310021F861 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		574957701B45DD1C007BC4BA /* Rainbow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rainbow-Bridging-Header.h"; sourceTree = "<group>"; };
+		5759BD0D1B51C84000236F1F /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		5759BD0E1B51C84000236F1F /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		577DFCB11B79DF0800B10473 /* AppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppCell.xib; sourceTree = "<group>"; };
+		57D030251B793F1100F3C5EE /* AppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		57FB64851B77F0E200FE9B37 /* RainbowCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowCollectionViewController.swift; sourceTree = "<group>"; };
+		E5689DA90BFA0DE0CDD61ABC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5738E64E1B45D89C00B63894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A64236FAE75C50745BD2A4 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5738E6631B45D89C00B63894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B45441CA622B197BD46D4F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D62D8812EE0EF4ECA5C4980 /* Pods.debug.xcconfig */,
+				E5689DA90BFA0DE0CDD61ABC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5738E6481B45D89C00B63894 = {
+			isa = PBXGroup;
+			children = (
+				5738E6531B45D89C00B63894 /* Rainbow */,
+				5738E6691B45D89C00B63894 /* RainbowTests */,
+				5738E6521B45D89C00B63894 /* Products */,
+				3B45441CA622B197BD46D4F8 /* Pods */,
+				C0616BD49647D8A6E80457DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5738E6521B45D89C00B63894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5738E6511B45D89C00B63894 /* Rainbow.app */,
+				5738E6661B45D89C00B63894 /* RainbowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5738E6531B45D89C00B63894 /* Rainbow */ = {
+			isa = PBXGroup;
+			children = (
+				574259041B49A0310021F861 /* Images.xcassets */,
+				5738E6561B45D89C00B63894 /* AppDelegate.swift */,
+				5738E65A1B45D89C00B63894 /* Main.storyboard */,
+				5738E65F1B45D89C00B63894 /* LaunchScreen.xib */,
+				5738E6541B45D89C00B63894 /* Supporting Files */,
+				574957701B45DD1C007BC4BA /* Rainbow-Bridging-Header.h */,
+				5759BD0D1B51C84000236F1F /* Device.h */,
+				5759BD0E1B51C84000236F1F /* Device.m */,
+				57FB64851B77F0E200FE9B37 /* RainbowCollectionViewController.swift */,
+				57D030251B793F1100F3C5EE /* AppCell.swift */,
+				577DFCB11B79DF0800B10473 /* AppCell.xib */,
+			);
+			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		5738E6541B45D89C00B63894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5738E6551B45D89C00B63894 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5738E6691B45D89C00B63894 /* RainbowTests */ = {
+			isa = PBXGroup;
+			children = (
+				5738E66C1B45D89C00B63894 /* RainbowTests.swift */,
+				5738E66A1B45D89C00B63894 /* Supporting Files */,
+			);
+			path = RainbowTests;
+			sourceTree = "<group>";
+		};
+		5738E66A1B45D89C00B63894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5738E66B1B45D89C00B63894 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0616BD49647D8A6E80457DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1952FBE0D33AD474CEAC2603 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5738E6501B45D89C00B63894 /* Rainbow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5738E6701B45D89C00B63894 /* Build configuration list for PBXNativeTarget "Rainbow" */;
+			buildPhases = (
+				1FD49DDD00D3ECD25A609A6A /* Check Pods Manifest.lock */,
+				5738E64D1B45D89C00B63894 /* Sources */,
+				5738E64E1B45D89C00B63894 /* Frameworks */,
+				5738E64F1B45D89C00B63894 /* Resources */,
+				29337809D0166973AC1EF729 /* Copy Pods Resources */,
+				1B3434DCEABAAA39288466BC /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rainbow;
+			productName = Rainbow;
+			productReference = 5738E6511B45D89C00B63894 /* Rainbow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5738E6651B45D89C00B63894 /* RainbowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5738E6731B45D89C00B63894 /* Build configuration list for PBXNativeTarget "RainbowTests" */;
+			buildPhases = (
+				5738E6621B45D89C00B63894 /* Sources */,
+				5738E6631B45D89C00B63894 /* Frameworks */,
+				5738E6641B45D89C00B63894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5738E6681B45D89C00B63894 /* PBXTargetDependency */,
+			);
+			name = RainbowTests;
+			productName = RainbowTests;
+			productReference = 5738E6661B45D89C00B63894 /* RainbowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5738E6491B45D89C00B63894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Marcio Klepacz";
+				TargetAttributes = {
+					5738E6501B45D89C00B63894 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4SD2D4QDMB;
+					};
+					5738E6651B45D89C00B63894 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5738E6501B45D89C00B63894;
+					};
+				};
+			};
+			buildConfigurationList = 5738E64C1B45D89C00B63894 /* Build configuration list for PBXProject "Rainbow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5738E6481B45D89C00B63894;
+			productRefGroup = 5738E6521B45D89C00B63894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5738E6501B45D89C00B63894 /* Rainbow */,
+				5738E6651B45D89C00B63894 /* RainbowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5738E64F1B45D89C00B63894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5738E65C1B45D89C00B63894 /* Main.storyboard in Resources */,
+				577DFCB21B79DF0800B10473 /* AppCell.xib in Resources */,
+				574259051B49A0310021F861 /* Images.xcassets in Resources */,
+				5738E6611B45D89C00B63894 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5738E6641B45D89C00B63894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B3434DCEABAAA39288466BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD49DDD00D3ECD25A609A6A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29337809D0166973AC1EF729 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5738E64D1B45D89C00B63894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D030261B793F1100F3C5EE /* AppCell.swift in Sources */,
+				57FB64861B77F0E200FE9B37 /* RainbowCollectionViewController.swift in Sources */,
+				5738E6571B45D89C00B63894 /* AppDelegate.swift in Sources */,
+				5759BD0F1B51C84000236F1F /* Device.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5738E6621B45D89C00B63894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5738E66D1B45D89C00B63894 /* RainbowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5738E6681B45D89C00B63894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5738E6501B45D89C00B63894 /* Rainbow */;
+			targetProxy = 5738E6671B45D89C00B63894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5738E65A1B45D89C00B63894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5738E65B1B45D89C00B63894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5738E65F1B45D89C00B63894 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5738E6601B45D89C00B63894 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5738E66E1B45D89C00B63894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5738E66F1B45D89C00B63894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5738E6711B45D89C00B63894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D62D8812EE0EF4ECA5C4980 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Rainbow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcioklepacz.Rainbow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rainbow/Rainbow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5738E6721B45D89C00B63894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5689DA90BFA0DE0CDD61ABC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Rainbow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcioklepacz.Rainbow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rainbow/Rainbow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Release;
+		};
+		5738E6741B45D89C00B63894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainbowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marciok.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow.app/Rainbow";
+			};
+			name = Debug;
+		};
+		5738E6751B45D89C00B63894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainbowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marciok.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow.app/Rainbow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5738E64C1B45D89C00B63894 /* Build configuration list for PBXProject "Rainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5738E66E1B45D89C00B63894 /* Debug */,
+				5738E66F1B45D89C00B63894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5738E6701B45D89C00B63894 /* Build configuration list for PBXNativeTarget "Rainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5738E6711B45D89C00B63894 /* Debug */,
+				5738E6721B45D89C00B63894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5738E6731B45D89C00B63894 /* Build configuration list for PBXNativeTarget "RainbowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5738E6741B45D89C00B63894 /* Debug */,
+				5738E6751B45D89C00B63894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5738E6491B45D89C00B63894 /* Project object */;
+}

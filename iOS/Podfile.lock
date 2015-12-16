@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - KFSwiftImageLoader (2.0.1)
+  - PubNub (4.1.4):
+    - CocoaLumberjack (= 2.2.0)
+    - PubNub/Core (= 4.1.4)
+  - PubNub/Core (4.1.4):
+    - CocoaLumberjack (= 2.2.0)
+  - SwiftyJSON (2.3.1)
+
+DEPENDENCIES:
+  - KFSwiftImageLoader (~> 2.0.1)
+  - PubNub (~> 4.0)
+  - SwiftyJSON (~> 2.3.1)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  KFSwiftImageLoader: a2b8a33a89116c767e7af8d2c109e8c483037b19
+  PubNub: 4cd09ad35180c44cf431140f774ad91cb0a65c4f
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+
+COCOAPODS: 0.38.2

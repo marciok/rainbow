@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'rmagick'
+gem 'miro'
+gem 'sinatra'
+gem 'color_sort'
+gem 'itunes-search-api'
+gem 'paleta'
+gem 'json'
+gem 'redis'
+gem 'sidekiq'
+gem 'pubnub', '~> 3.7.9'
+gem 'work_queue'

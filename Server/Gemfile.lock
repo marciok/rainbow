@@ -1,0 +1,79 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    chunky_png (1.3.4)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.7)
+      climate_control (>= 0.0.3, < 1.0)
+    color (1.7.1)
+    color_sort (1.1.0)
+      color
+      colorscore
+    colorscore (0.0.4)
+      color
+    concurrent-ruby (1.0.0)
+    connection_pool (2.2.0)
+    eventmachine (1.0.8)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    i18n (0.7.0)
+    itunes-search-api (0.1.0)
+      httparty
+    json (1.8.2)
+    minitest (5.4.3)
+    miro (0.3.0)
+      cocaine
+      color
+      oily_png
+    multi_xml (0.5.5)
+    net-http-persistent (2.9.4)
+    oily_png (1.2.0)
+      chunky_png (~> 1.3.1)
+    paleta (0.2.3)
+    pubnub (3.7.9)
+      eventmachine (~> 1.0)
+      json (~> 1.8)
+      net-http-persistent (~> 2.9)
+    rack (1.6.0)
+    rack-protection (1.5.3)
+      rack
+    redis (3.2.1)
+    rmagick (2.15.4)
+    sidekiq (4.0.1)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      json (~> 1.0)
+      redis (~> 3.2, >= 3.2.1)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    thread_safe (0.3.4)
+    tilt (1.4.1)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    work_queue (2.5.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  color_sort
+  itunes-search-api
+  json
+  miro
+  paleta
+  pubnub (~> 3.7.9)
+  redis
+  rmagick
+  sidekiq
+  sinatra
+  work_queue

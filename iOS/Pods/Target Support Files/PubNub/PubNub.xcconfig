@@ -1,0 +1,1 @@
+PUBNUB_OTHER_LDFLAGS = -l"z"
