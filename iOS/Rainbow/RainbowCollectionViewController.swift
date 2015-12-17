@@ -14,7 +14,8 @@ import PubNub
 class RainbowCollectionViewController: UICollectionViewController {
     var apps: JSON = nil
     var client: PubNub?
-    let endPoint = "http://7f32d01e.ngrok.io"
+    let endpoint = "http://rainbow-example.ngrok.io" // Download ngrok.com to tunnel your localhost to replace the endpoint
+    
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
     
     required init?(coder aDecoder: NSCoder) {
@@ -35,7 +36,7 @@ class RainbowCollectionViewController: UICollectionViewController {
 
         self.collectionView?.registerNib(UINib(nibName: "AppCell", bundle: nil), forCellWithReuseIdentifier: "appCell")
         
-        let serverURL = NSURL(string: "\(endPoint)/apps")!
+        let serverURL = NSURL(string: "\(endpoint)/apps")!
         let request = NSMutableURLRequest(URL: serverURL)
         request.addValue("application/json", forHTTPHeaderField: "Content-type")
         request.HTTPMethod = "POST"
@@ -81,7 +82,7 @@ class RainbowCollectionViewController: UICollectionViewController {
     }
     
     func fetchAppsSorted(sortId: String) {
-        let serverURL = NSURL(string: "\(endPoint)/apps/\(sortId)")!
+        let serverURL = NSURL(string: "\(endpoint)/apps/\(sortId)")!
         let request = NSMutableURLRequest(URL: serverURL)
         request.HTTPMethod = "GET"
         
