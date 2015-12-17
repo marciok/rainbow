@@ -28,13 +28,13 @@ build/
 !default.perspectivev3
 *.xcworkspace
 !default.xcworkspace
-xcuserdata
+iOS/xcuserdata
 profile
 *.moved-aside
 DerivedData
 .idea/
 # Pods - for those of you who use CocoaPods
-Pods
+iOS/Pods
 
 ## Documentation cache and generated files:
 /.yardoc/
