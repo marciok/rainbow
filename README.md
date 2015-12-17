@@ -1,5 +1,5 @@
 # Rainbow :rainbow: 
-## This project is a HACK to sort your iOS apps by color.
+## This project is a HACK to sort & group your iOS apps by color.
 
 I like to organize my apps by color, but to find the dominant color, divide them into groups manually, it's a pain. So I decided to created a service + iOS app to help me.
 
