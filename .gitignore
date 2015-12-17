@@ -29,6 +29,7 @@ build/
 *.xcworkspace
 !default.xcworkspace
 iOS/xcuserdata
+iOS/Rainbow.xcworkspace/xcuserdata
 profile
 *.moved-aside
 DerivedData
