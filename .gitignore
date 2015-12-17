@@ -28,14 +28,13 @@ build/
 !default.perspectivev3
 *.xcworkspace
 !default.xcworkspace
-iOS/xcuserdata
-iOS/Rainbow.xcworkspace/xcuserdata
+**/xcuserdata
 profile
 *.moved-aside
 DerivedData
 .idea/
 # Pods - for those of you who use CocoaPods
-iOS/Pods
+**/Pods
 
 ## Documentation cache and generated files:
 /.yardoc/
